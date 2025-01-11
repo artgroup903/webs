@@ -1,0 +1,896 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>A R T Leasing Limited </title>
+    <link href="images/logo/art_logot.png" rel="icon">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">    
+    
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+
+    <link rel="stylesheet" href="fonts/font/flaticon.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    
+  </head>
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+
+  <div id="overlayer">
+    <div class="loader">
+      <img src="images/logo/art_logo_loder.png" alt="Loading..." class="loader-logo">     
+    </div>
+  </div>
+  
+  <div class="site-wrap">
+    <div class="site-mobile-menu site-navbar-target">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+<!-------------- navbar --------------------------------------------->
+<!-------------- navbar --------------------------------------------->
+<header class="site-navbar js-sticky-header site-navbar-target" role="banner">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-6 col-xl-2">
+        <h1 class="mb-0 site-logo">
+          <a href="home.html" class="h2 mb-0">
+            <img src="images/logo/art_logo.png" alt="Logo" width="60" height="55">A R T Leasing Limited</a>
+        </h1>
+      </div>
+
+      <div class="col-12 col-md-10 d-none d-xl-block">
+        <nav class="site-navigation position-relative text-right" role="navigation">
+          <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
+            <li><a href="home.html" class="nav-link">Home</a></li> 
+
+            <li class="has-children">
+              <a href="home.html#about" class="nav-link">About Us</a>
+              <ul class="dropdown">
+                <li><a href="about-us.html#about-us" class="nav-link">About Us</a></li>
+                <li><a href="about-us.html#team" class="nav-link">Team</a></li>
+                <li><a href="about-us.html#gallery" class="nav-link">Gallery</a></li>
+              </ul>
+            </li>
+            
+            <li class="has-children">
+              <a href="home.html#services" class="nav-link">Services</a>
+              <ul class="dropdown">
+                <li><a href="home.html#goldloan" class="nav-link">Gold Loan</a></li>
+                <li><a href="home.html#businessloan" class="nav-link">Bussiness Loan</a></li>                
+              </ul>
+            </li>
+             
+            <li class="has-children">
+              <a class="nav-link">More</a>
+              <ul class="dropdown">
+                <li><a href="#" class="nav-link">Join us</a></li>
+                <li><a href="#branches" class="nav-link">Branches</a></li>
+                <li><a href="#" class="nav-link">Reports</a></li>
+              </ul>
+            </li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="col-6 d-inline-block d-xl-none ml-md-0 py-3" style="position: relative; top: 3px;">
+        <a href="#" class="site-menu-toggle js-menu-toggle float-right"><span class="icon-menu h3"></span></a>
+      </div>
+    </div>
+  </div>
+</div>
+</header>
+<!-------------- navbar end --------------------------------------------------->
+
+<section class="site-section" id="branches">
+  <div class="container">
+    <div class="row mb-5 justify-content-center">
+      <div class="col-md-12 text-center">
+        <h2 class="section-title mb-3" data-aos="fade-up" data-aos-delay="">Branches</h2>
+        <p class="lead" data-aos="fade-up" data-aos-delay="100">We are committed to providing convenient and accessible financial services through our network of branches across the districts of Alappuzha, Pathanamthitta, Kollam, and Kottayam. Our branches specialize in offering Gold Loans and Business Loans, catering to the specific needs of individuals and businesses alike. Whether you’re looking to leverage your gold as collateral for a loan or seeking financial support for your business growth, our expert team is ready to assist. Visit your nearest branch to discuss your options, or contact us for more information.</p>
+        </div>
+    </div>
+  </div>
+  <!-- Filter Input -->
+  <div class="row mb-5 justify-content-center">
+  <div class="col-md-8 text-center">
+    <input type="text" id="branchFilter" class="form-control" placeholder="Search branches..." onkeyup="filterBranches()">
+  </div>
+</div>
+
+  <div class="container branches">
+    <div class="row">
+      <div class="col-md-3 mb-3" data-aos="fade-up" data-aos-delay="100">
+        <div class="branchBox">
+          <div class="branchimg">
+            <img src="images/Location.jpg" alt="gold bar" title="max">
+          </div>
+          <div class="pt-4">
+            <h4 class="text-primary" id="anchal" >Anchal</h4>
+            <p>Raagam Building No:-Ap-Xii.37
+              A.K.Road, Range Office (R.O) Junction,
+              Anchal, Kollam- 691306
+              </p>
+            <div class="d-flex align-items-center mb-2">
+              <i class="icon-phone text-primary h5 me-2"></i>
+              <a href="tel:+918943359116"><P style="color:rgb(86, 84, 84);">&nbsp;&nbsp;+91 8943359360</P></a>
+            </div>        
+            <div class="align-items-start d-flex mb-2">
+              <i class="icon-clock-o text-primary h4 me-2"></i> 
+              <p>&nbsp;&nbsp;Mon - Sat 9.30 am - 5.30 pm &nbsp;|Sunday Closed</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 mb-3" data-aos="fade-up" data-aos-delay="100">
+        <div class="branchBox">
+          <div class="branchimg">
+            <img src="images/Location.jpg" alt="gold bar" title="max">
+          </div>
+          <div class="pt-4">
+            <h4 class="text-primary" id="kollam">Bharanikkavu</h4>
+            <p>Room No:19/373
+              Bharanicavu Patharam Road
+              Sasthamkotta P.O
+              Kollam- 690521
+            </p>
+            <div class="d-flex align-items-center mb-2">
+              <i class="icon-phone text-primary h5 me-2"></i>
+              <a href="tel:+918943359116"><P style="color:rgb(86, 84, 84);">&nbsp;&nbsp;+91 8943359228</P></a>
+            </div>        
+            <div class="align-items-start d-flex mb-2">
+              <i class="icon-clock-o text-primary h4 me-2"></i>
+              <p>&nbsp;&nbsp;Mon - Sat 9.30 am - 5.30 pm &nbsp;|Sunday Closed</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 mb-3" data-aos="fade-up" data-aos-delay="100">
+        <div class="branchBox">
+          <div class="branchimg">
+            <img src="images/Location.jpg" alt="gold bar" title="max">
+          </div>
+          <div class="pt-4">
+            <h4 class="text-primary" id="kottayam">Budhanoor</h4>
+            <p>Thyleth Buildings
+              Room No; 44a
+              Peringadu Muri
+              Budhanoor P.O,
+              Chengannur– 689510
+              </p>
+            <div class="d-flex align-items-center mb-2">
+              <i class="icon-phone text-primary h5 me-2"></i>
+              <a href="tel:+918943359116"><P style="color:rgb(86, 84, 84);">&nbsp;&nbsp;+91 8943355304</P></a>
+            </div>        
+            <div class="align-items-start d-flex mb-2">
+              <i class="icon-clock-o text-primary h4 me-2"></i>
+              <p>&nbsp;&nbsp;Mon - Sat 9.30 am - 5.30 pm &nbsp;|Sunday Closed</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 mb-3" data-aos="fade-up" data-aos-delay="100">
+        <div class="branchBox">
+          <div class="branchimg">
+            <img src="images/Location.jpg" alt="gold bar" title="max">
+          </div>
+          <div class="pt-4">
+            <h4 class="text-primary" id="kozhikod">Chengannur</h4>
+            <p>1st Floor A R T Chambers, Govt.Hospital Jn, Chengannur- 689121</p>
+            <div class="d-flex align-items-center mb-2">
+              <i class="icon-phone text-primary h5 me-2"></i>
+              <a href="tel:+918943359116"><P style="color:rgb(86, 84, 84);">&nbsp;&nbsp;+91 8943359113</P></a>
+            </div>        
+            <div class="align-items-start d-flex mb-2">
+              <i class="icon-clock-o text-primary h4 me-2"></i>
+              <p>&nbsp;&nbsp;Mon - Sat 9.30 am - 5.30 pm &nbsp;|Sunday Closed</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <div class="col-md-3 mb-3" data-aos="fade-up" data-aos-delay="100">
+      <div class="branchBox">
+        <div class="branchimg">
+          <img src="images/Location.jpg" alt="gold bar" title="max">
+        </div>
+        <div class="pt-4">
+          <h4 class="text-primary" id="alappuzha">Elavanthitta</h4>
+        <p>
+          Kidangil Building<br>
+          Elavumthitta P.O
+          Pathanamthitta- 689625
+        </p>
+        <div class="d-flex align-items-center mb-2">
+          <i class="icon-phone text-primary h5 me-2"></i>
+          <a href="tel:+918943359116"><P style="color:rgb(86, 84, 84);">&nbsp;&nbsp;+91 8943359124</P></a>
+        </div>        
+        <div class="align-items-start d-flex mb-2">
+          <i class="icon-clock-o text-primary h4 me-2"></i> <p>&nbsp;&nbsp;Mon - Sat 9.30 am - 5.30 pm &nbsp;|Sunday Closed</p> 
+        </div>
+      </div>
+    </div></div>
+
+    <div class="col-md-3 mb-3" data-aos="fade-up" data-aos-delay="100">
+      <div class="branchBox">
+        <div class="branchimg">
+          <img src="images/Location.jpg" alt="gold bar" title="max">
+        </div>
+        <div class="pt-4">
+          <h4 class="text-primary" id="usa">Erumeli</h4>
+        <p>
+          Padickal Building
+          Room No.139/H
+          Ward-7, Erumeli
+          Kottayam- 686509
+        </p>
+        <div class="d-flex align-items-center mb-2">
+          <i class="icon-phone text-primary h5 me-2"></i>
+          <a href="tel:+918943359116"><P style="color:rgb(86, 84, 84);">&nbsp;&nbsp;+91 8943355308</P></a>
+        </div>        
+        <div class="align-items-start d-flex mb-2">
+          <i class="icon-clock-o text-primary h4 me-2"></i> <p>&nbsp;&nbsp;Mon - Sat 9.30 am - 5.30 pm &nbsp;|Sunday Closed</p> 
+        </div>
+      </div>
+    </div></div>
+
+    <div class="col-md-3 mb-3" data-aos="fade-up" data-aos-delay="100">
+      <div class="branchBox">
+        <div class="branchimg">
+          <img src="images/Location.jpg" alt="gold bar" title="max">
+        </div>
+        <div class="pt-4">
+          <h4 class="text-primary" id="uk">Karunagappally</h4>
+        <p>
+          Sivamandiram Building
+          Bldg No-23, Near Electricity Office
+          Karunagappally,
+          Kollam- 690518
+        </p>
+        <div class="d-flex align-items-center mb-2">
+          <i class="icon-phone text-primary h5 me-2"></i>
+          <a href="tel:+918943359116"><P style="color:rgb(86, 84, 84);">&nbsp;&nbsp;+91 8943355322</P></a>
+        </div>        
+        <div class="align-items-start d-flex mb-2">
+          <i class="icon-clock-o text-primary h4 me-2"></i> <p>&nbsp;&nbsp;Mon - Sat 9.30 am - 5.30 pm &nbsp;|Sunday Closed</p> 
+        </div>
+      </div>
+    </div></div>
+
+    <div class="col-md-3 mb-3" data-aos="fade-up" data-aos-delay="100">
+      <div class="branchBox">
+        <div class="branchimg">
+          <img src="images/Location.jpg" alt="gold bar" title="max">
+        </div>
+        <div class="pt-4">
+          <h4 class="text-primary" id="china">Kottukad</h4>
+        <p>
+          Azeela Bhavan, 
+          Room No; 462
+          Ward No.8, Kottukadu Ward
+          Kollam- 691585
+        </p>
+        <div class="d-flex align-items-center mb-2">
+          <i class="icon-phone text-primary h5 me-2"></i>
+          <a href="tel:+918943359116"><P style="color:rgb(86, 84, 84);">&nbsp;&nbsp;+91 8943359138</P></a>
+        </div>        
+        <div class="align-items-start d-flex mb-2">
+          <i class="icon-clock-o text-primary h4 me-2"></i> <p>&nbsp;&nbsp;Mon - Sat 9.30 am - 5.30 pm &nbsp;|Sunday Closed</p> 
+        </div>
+      </div>
+    </div></div>
+
+    <div class="col-md-3 mb-3" data-aos="fade-up" data-aos-delay="100">
+      <div class="branchBox">
+        <div class="branchimg">
+          <img src="images/Location.jpg" alt="gold bar" title="max">
+        </div>
+        <div class="pt-4">
+          <h4 class="text-primary" id="alappuzha">Kurathikad</h4>
+        <p>
+          Madathil Kuttiyil Building
+          Thekkekara P.O
+          Kurathikad
+          Mavelikkara- 690107
+        </p>
+        <div class="d-flex align-items-center mb-2">
+          <i class="icon-phone text-primary h5 me-2"></i>
+          <a href="tel:+918943359116"><P style="color:rgb(86, 84, 84);">&nbsp;&nbsp;+91 8943359706</P></a>
+        </div>        
+        <div class="align-items-start d-flex mb-2">
+          <i class="icon-clock-o text-primary h4 me-2"></i> <p>&nbsp;&nbsp;Mon - Sat 9.30 am - 5.30 pm &nbsp;|Sunday Closed</p> 
+        </div>
+      </div>
+    </div></div>
+
+    <div class="col-md-3 mb-3" data-aos="fade-up" data-aos-delay="100">
+      <div class="branchBox">
+        <div class="branchimg">
+          <img src="images/Location.jpg" alt="gold bar" title="max">
+        </div>
+        <div class="pt-4">
+          <h4 class="text-primary" id="usa">Kurichi</h4>
+        <p>
+          S.N Building,
+          1st Floor,<br>
+          Kurichi Out Post,
+          Kottayam- 686532
+        </p>
+        <div class="d-flex align-items-center mb-2">
+          <i class="icon-phone text-primary h5 me-2"></i>
+          <a href="tel:+918943359116"><P style="color:rgb(86, 84, 84);">&nbsp;&nbsp;+91 8943355317</P></a>
+        </div>        
+        <div class="align-items-start d-flex mb-2">
+          <i class="icon-clock-o text-primary h4 me-2"></i> <p>&nbsp;&nbsp;Mon - Sat 9.30 am - 5.30 pm &nbsp;|Sunday Closed</p> 
+        </div>
+      </div>
+    </div></div>
+
+    <div class="col-md-3 mb-3" data-aos="fade-up" data-aos-delay="100">
+      <div class="branchBox">
+        <div class="branchimg">
+          <img src="images/Location.jpg" alt="gold bar" title="max">
+        </div>
+        <div class="pt-4">
+          <h4 class="text-primary" id="uk">Kuttippuram</h4>
+        <p>
+          Dwaraka<br>
+          Srpm P.O,
+          Thazhava,
+          Karunagappally- 690539
+        </p>
+        <div class="d-flex align-items-center mb-2">
+          <i class="icon-phone text-primary h5 me-2"></i>
+          <a href="tel:+918943359116"><P style="color:rgb(86, 84, 84);">&nbsp;&nbsp;+91 8943359229</P></a>
+        </div>        
+        <div class="align-items-start d-flex mb-2">
+          <i class="icon-clock-o text-primary h4 me-2"></i> <p>&nbsp;&nbsp;Mon - Sat 9.30 am - 5.30 pm &nbsp;|Sunday Closed</p> 
+        </div>
+      </div>
+    </div></div>
+
+    <div class="col-md-3 mb-3" data-aos="fade-up" data-aos-delay="100">
+      <div class="branchBox">
+        <div class="branchimg">
+          <img src="images/Location.jpg" alt="gold bar" title="max">
+        </div>
+        <div class="pt-4">
+          <h4 class="text-primary" id="china">Mararithottam</h4>
+        <p>
+          V.K. Building,
+          Room No.Xv11/144,
+          Kallelibhagom Muri,
+          Mararithottam,
+          Kollam- 690519
+        </p>
+        <div class="d-flex align-items-center mb-2">
+          <i class="icon-phone text-primary h5 me-2"></i>
+          <a href="tel:+918943359116"><P style="color:rgb(86, 84, 84);">&nbsp;&nbsp;+91 8943355311</P></a>
+        </div>        
+        <div class="align-items-start d-flex mb-2">
+          <i class="icon-clock-o text-primary h4 me-2"></i> <p>&nbsp;&nbsp;Mon - Sat 9.30 am - 5.30 pm &nbsp;|Sunday Closed</p> 
+        </div>
+      </div>
+    </div></div>
+
+    <div class="col-md-3 mb-3" data-aos="fade-up" data-aos-delay="100">
+      <div class="branchBox">
+        <div class="branchimg">
+          <img src="images/Location.jpg" alt="gold bar" title="max">
+        </div>
+        <div class="pt-4">
+          <h4 class="text-primary" id="alappuzha">Nalumukku</h4>
+        <p>
+          Puthenparambil,
+          Mankamkuzhy P.O,
+          Naalumukku,
+          Mavelikkara- 690558
+        </p>
+        <div class="d-flex align-items-center mb-2">
+          <i class="icon-phone text-primary h5 me-2"></i>
+          <a href="tel:+918943359116"><P style="color:rgb(86, 84, 84);">&nbsp;&nbsp;+91 8943359208</P></a>
+        </div>        
+        <div class="align-items-start d-flex mb-2">
+          <i class="icon-clock-o text-primary h4 me-2"></i> <p>&nbsp;&nbsp;Mon - Sat 9.30 am - 5.30 pm &nbsp;|Sunday Closed</p> 
+        </div>
+      </div>
+    </div></div>
+
+    <div class="col-md-3 mb-3" data-aos="fade-up" data-aos-delay="100">
+      <div class="branchBox">
+        <div class="branchimg">
+          <img src="images/Location.jpg" alt="gold bar" title="max">
+        </div>
+        <div class="pt-4">
+          <h4 class="text-primary" id="usa">Neduvathoor</h4>
+        <p>
+          Plamoodu Junction,
+          Building No:488,
+          Neduvathoor Panchayathu,
+          Kollam- 691505
+	   </p>
+        <div class="d-flex align-items-center mb-2">
+          <i class="icon-phone text-primary h5 me-2"></i>
+          <a href="tel:+918943359116"><P style="color:rgb(86, 84, 84);">&nbsp;&nbsp;+91 8943359128</P></a>
+        </div>        
+        <div class="align-items-start d-flex mb-2">
+          <i class="icon-clock-o text-primary h4 me-2"></i> <p>&nbsp;&nbsp;Mon - Sat 9.30 am - 5.30 pm &nbsp;|Sunday Closed</p> 
+        </div>
+      </div>
+    </div></div>
+
+    <div class="col-md-3 mb-3" data-aos="fade-up" data-aos-delay="100">
+      <div class="branchBox">
+        <div class="branchimg">
+          <img src="images/Location.jpg" alt="gold bar" title="max">
+        </div>
+        <div class="pt-4">
+          <h4 class="text-primary" id="uk">Padanilam</h4>
+        <p>
+          Jaya Nivas Building
+          Room No-19a, Ward-5,                                                                                                           Padanilam, Nooranadu,
+          Alappuzha- 690529
+	       </p>
+        <div class="d-flex align-items-center mb-2">
+          <i class="icon-phone text-primary h5 me-2"></i>
+          <a href="tel:+918943359116"><P style="color:rgb(86, 84, 84);">&nbsp;&nbsp;+91 8943359166</P></a>
+        </div>        
+        <div class="align-items-start d-flex mb-2">
+          <i class="icon-clock-o text-primary h4 me-2"></i> <p>&nbsp;&nbsp;Mon - Sat 9.30 am - 5.30 pm &nbsp;|Sunday Closed</p> 
+        </div>
+      </div>
+    </div></div>
+
+    <div class="col-md-3 mb-3" data-aos="fade-up" data-aos-delay="100">
+      <div class="branchBox">
+        <div class="branchimg">
+          <img src="images/Location.jpg" alt="gold bar" title="max">
+        </div>
+        <div class="pt-4">
+          <h4 class="text-primary" id="china">Pallippad</h4>
+        <p>
+          Pulithittayil Building
+          Bldg No.146/N,
+          Poyyakkara Junction, 
+          Pallippad,
+          Alappuzha- 690512
+        </p>
+        <div class="d-flex align-items-center mb-2">
+          <i class="icon-phone text-primary h5 me-2"></i>
+          <a href="tel:+918943359116"><P style="color:rgb(86, 84, 84);">&nbsp;&nbsp;+91 8943359134</P></a>
+        </div>        
+        <div class="align-items-start d-flex mb-2">
+          <i class="icon-clock-o text-primary h4 me-2"></i> <p>&nbsp;&nbsp;Mon - Sat 9.30 am - 5.30 pm &nbsp;|Sunday Closed</p> 
+        </div>
+      </div>
+    </div></div>
+
+    <div class="col-md-3 mb-3" data-aos="fade-up" data-aos-delay="100">
+      <div class="branchBox">
+        <div class="branchimg">
+          <img src="images/Location.jpg" alt="gold bar" title="max">
+        </div>
+        <div class="pt-4">
+          <h4 class="text-primary" id="alappuzha">Panmana</h4>
+        <p>
+          Shop No:Pp13/752, Panmana
+          Puthenchanda Market,
+          Chavara,
+          Karunagappally- 686538
+        </p>
+        <div class="d-flex align-items-center mb-2">
+          <i class="icon-phone text-primary h5 me-2"></i>
+          <a href="tel:+918943359116"><P style="color:rgb(86, 84, 84);">&nbsp;&nbsp;+91 8943359236</P></a>
+        </div>        
+        <div class="align-items-start d-flex mb-2">
+          <i class="icon-clock-o text-primary h4 me-2"></i> <p>&nbsp;&nbsp;Mon - Sat 9.30 am - 5.30 pm &nbsp;|Sunday Closed</p> 
+        </div>
+      </div>
+    </div></div>
+
+    <div class="col-md-3 mb-3" data-aos="fade-up" data-aos-delay="100">
+      <div class="branchBox">
+        <div class="branchimg">
+          <img src="images/Location.jpg" alt="gold bar" title="max">
+        </div>
+        <div class="pt-4">
+          <h4 class="text-primary" id="usa">Panikkarukadavu</h4>
+        <p>
+          Room No-127-B<br>
+          Panicker Kadavu Junction
+          Karunagapally	
+          kollam
+        </p>
+        <div class="d-flex align-items-center mb-2">
+          <i class="icon-phone text-primary h5 me-2"></i>
+          <a href="tel:+918943359116"><P style="color:rgb(86, 84, 84);">&nbsp;&nbsp;+91 8943359800</P></a>
+        </div>        
+        <div class="align-items-start d-flex mb-2">
+          <i class="icon-clock-o text-primary h4 me-2"></i> <p>&nbsp;&nbsp;Mon - Sat 9.30 am - 5.30 pm &nbsp;|Sunday Closed</p> 
+        </div>
+      </div>
+    </div></div>
+
+    <div class="col-md-3 mb-3" data-aos="fade-up" data-aos-delay="100">
+      <div class="branchBox">
+        <div class="branchimg">
+          <img src="images/Location.jpg" alt="gold bar" title="max">
+        </div>
+        <div class="pt-4">
+          <h4 class="text-primary" id="uk">Parumala</h4>
+        <p>
+          Puthupparambil Building,
+          Room No:-8/406c, 
+          Parumala P.O.           
+          Pathanamthitta-689626
+        </p>
+        <div class="d-flex align-items-center mb-2">
+          <i class="icon-phone text-primary h5 me-2"></i>
+          <a href="tel:+918943359116"><P style="color:rgb(86, 84, 84);">&nbsp;&nbsp;+91 8943355307</P></a>
+        </div>        
+        <div class="align-items-start d-flex mb-2">
+          <i class="icon-clock-o text-primary h4 me-2"></i> <p>&nbsp;&nbsp;Mon - Sat 9.30 am - 5.30 pm &nbsp;|Sunday Closed</p> 
+        </div>
+      </div>
+    </div></div>
+
+    <div class="col-md-3 mb-3" data-aos="fade-up" data-aos-delay="100">
+      <div class="branchBox">
+        <div class="branchimg">
+          <img src="images/Location.jpg" alt="gold bar" title="max">
+        </div>
+        <div class="pt-4">
+          <h4 class="text-primary" id="china">Pazhakulam</h4>
+        <p>
+          Hayath Plaza, 
+          Room No.206/B, 
+          Pazhakulam,<br>
+          Pathanamthitta- 691523	
+        </p>
+        <div class="d-flex align-items-center mb-2">
+          <i class="icon-phone text-primary h5 me-2"></i>
+          <a href="tel:+918943359116"><P style="color:rgb(86, 84, 84);">&nbsp;&nbsp;+91 8943359109</P></a>
+        </div>        
+        <div class="align-items-start d-flex mb-2">
+          <i class="icon-clock-o text-primary h4 me-2"></i> <p>&nbsp;&nbsp;Mon - Sat 9.30 am - 5.30 pm &nbsp;|Sunday Closed</p> 
+        </div>
+      </div>
+    </div></div>
+
+    <div class="col-md-3 mb-3" data-aos="fade-up" data-aos-delay="100">
+      <div class="branchBox">
+        <div class="branchimg">
+          <img src="images/Location.jpg" alt="gold bar" title="max">
+        </div>
+        <div class="pt-4">
+          <h4 class="text-primary" id="alappuzha">Puthenchanda</h4>
+        <p>
+          N.K. Building,
+          Room No-15/831,
+          Kattikadavu P.O.
+          Puthenchantha, 
+          Kollam- 690542 
+        </p>
+        <div class="d-flex align-items-center mb-2">
+          <i class="icon-phone text-primary h5 me-2"></i>
+          <a href="tel:+918943359116"><P style="color:rgb(86, 84, 84);">&nbsp;&nbsp;+91 8943359700</P></a>
+        </div>        
+        <div class="align-items-start d-flex mb-2">
+          <i class="icon-clock-o text-primary h4 me-2"></i> <p>&nbsp;&nbsp;Mon - Sat 9.30 am - 5.30 pm &nbsp;|Sunday Closed</p> 
+        </div>
+      </div>
+    </div></div>
+
+    <div class="col-md-3 mb-3" data-aos="fade-up" data-aos-delay="100">
+      <div class="branchBox">
+        <div class="branchimg">
+          <img src="images/Location.jpg" alt="gold bar" title="max">
+        </div>
+        <div class="pt-4">
+          <h4 class="text-primary" id="usa">T B Road</h4>
+        <p>
+          Muncipal Shopping Center,
+          Head Post Office Jn., 
+          Changanacherry,
+          Kottayam- 686101
+
+        </p>
+        <div class="d-flex align-items-center mb-2">
+          <i class="icon-phone text-primary h5 me-2"></i>
+          <a href="tel:+918943359116"><P style="color:rgb(86, 84, 84);">&nbsp;&nbsp;+91 8943355313</P></a>
+        </div>        
+        <div class="align-items-start d-flex mb-2">
+          <i class="icon-clock-o text-primary h4 me-2"></i> <p>&nbsp;&nbsp;Mon - Sat 9.30 am - 5.30 pm &nbsp;|Sunday Closed</p> 
+        </div>
+      </div>
+    </div></div>
+
+    <div class="col-md-3 mb-3" data-aos="fade-up" data-aos-delay="100">
+      <div class="branchBox">
+        <div class="branchimg">
+          <img src="images/Location.jpg" alt="gold bar" title="max">
+        </div>
+        <div class="pt-4">
+          <h4 class="text-primary" id="uk">Thadathilal</h4>
+        <p>
+          Shop No:68,
+          North Mankuzhy,
+          Thadathilal,
+          Kurathikad P.O,
+          Mavelikkara- 690107          
+        </p>
+        <div class="d-flex align-items-center mb-2">
+          <i class="icon-phone text-primary h5 me-2"></i>
+          <a href="tel:+918943359204"><P style="color:rgb(86, 84, 84);">&nbsp;&nbsp;+91 8943359204</P></a>
+        </div>        
+        <div class="align-items-start d-flex mb-2">
+          <i class="icon-clock-o text-primary h4 me-2"></i> <p>&nbsp;&nbsp;Mon - Sat 9.30 am - 5.30 pm &nbsp;|Sunday Closed</p> 
+        </div>
+      </div>
+    </div></div>
+
+    <div class="col-md-3 mb-3" data-aos="fade-up" data-aos-delay="100">
+      <div class="branchBox">
+        <div class="branchimg">
+          <img src="images/Location.jpg" alt="gold bar" title="max">
+        </div>
+        <div class="pt-4">
+          <h4 class="text-primary" id="china">Thevelakkara</h4>
+        <p>
+          Kothamangalath Building
+          Room No- Tpii-613,
+          Padinjattekara P.O.,
+          Thevalakkara,
+          Kollam- 690524
+        </p>
+        <div class="d-flex align-items-center mb-2">
+          <i class="icon-phone text-primary h5 me-2"></i>
+          <a href="tel:+918943359179"><P style="color:rgb(86, 84, 84);">&nbsp;&nbsp;+91 8943359179</P></a>
+        </div>        
+        <div class="align-items-start d-flex mb-2">
+          <i class="icon-clock-o text-primary h4 me-2"></i> <p>&nbsp;&nbsp;Mon - Sat 9.30 am - 5.30 pm &nbsp;|Sunday Closed</p> 
+        </div>
+      </div>
+    </div></div>
+
+    <div class="col-md-3 mb-3" data-aos="fade-up" data-aos-delay="100">
+      <div class="branchBox">
+        <div class="branchimg">
+          <img src="images/Location.jpg" alt="gold bar" title="max">
+        </div>
+        <div class="pt-4">
+          <h4 class="text-primary" id="alappuzha">Thrikkunnapuzha</h4>
+        <p>
+        Chithra Shopping Complex,
+        Room No:228,Ward No Xi
+        Beach Road, 
+        Thrikkunnapuzha- 690515
+        </p>
+        <div class="d-flex align-items-center mb-2">
+          <i class="icon-phone text-primary h5 me-2"></i>
+          <a href="tel:+918943359141"><P style="color:rgb(86, 84, 84);">&nbsp;&nbsp;+91 8943359141</P></a>
+        </div>        
+        <div class="align-items-start d-flex mb-2">
+          <i class="icon-clock-o text-primary h4 me-2"></i> <p>&nbsp;&nbsp;Mon - Sat 9.30 am - 5.30 pm &nbsp;|Sunday Closed</p> 
+        </div>
+      </div>
+    </div></div>
+
+    <div class="col-md-3 mb-3" data-aos="fade-up" data-aos-delay="100">
+      <div class="branchBox">
+        <div class="branchimg">
+          <img src="images/Location.jpg" alt="gold bar" title="max">
+        </div>
+        <div class="pt-4">
+          <h4 class="text-primary" id="usa">Thonakkad</h4>
+        <p>
+          Painumoottil Building
+          Room No- Pp.10/271
+          Thonakkad J.N, 
+          Thonakkad, Alappuzha
+ 					 </p>
+        <div class="d-flex align-items-center mb-2">
+          <i class="icon-phone text-primary h5 me-2"></i>
+          <a href="tel:+918943359126"><P style="color:rgb(86, 84, 84);">&nbsp;&nbsp;+91 8943359126</P></a>
+        </div>        
+        <div class="align-items-start d-flex mb-2">
+          <i class="icon-clock-o text-primary h4 me-2"></i> <p>&nbsp;&nbsp;Mon - Sat 9.30 am - 5.30 pm &nbsp;|Sunday Closed</p> 
+        </div>
+      </div>
+    </div></div>
+
+  </div></div></section>    
+<!------------------ Contact------------------------------------------------------------->  
+<section class="site-section bg-light" id="contact" data-aos="fade">
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col-12 text-center">
+          <h2 class="section-title mb-3">Contact Us</h2>
+        </div>
+      </div>
+      <div class="row mb-5">    
+
+
+        <div class="col-md-4 text-center">
+          <p class="mb-4">
+            <span class="icon-room d-block h2 text-primary"></span>
+            <a href="https://maps.app.goo.gl/BvELUcvLwhEJTQM28" target="_blank">
+              A R T Leasing Limited, Govt.Hospital jn,<br>MC Road, Chengannur, Keralam
+            </a>
+          </p>
+        </div>
+        
+        <div class="col-md-4 text-center">
+          <p class="mb-4">
+            <span class="icon-phone d-block h2 text-primary"></span>
+            <a href="#">+91 8943359116<br>+91 9946201111</a>
+          </p>
+        </div>
+        <div class="col-md-4 text-center">
+          <p class="mb-0">
+            <span class="icon-mail_outline d-block h2 text-primary"></span>
+            <a href="mailto:hr@artgroupofcompanies.in?subject=Inquiry&body=Hello,%20I%20would%20like%20to%20inquire%20about" target="_blank">
+              admn@artleasinglimited.in
+            </a>
+            <br>
+            <a href="mailto:hr@artgroupofcompanies.in?subject=Inquiry&body=Hello,%20I%20would%20like%20to%20inquire%20about" target="_blank">
+              hr@artleasinglimited.in
+            </a>
+          </p>
+        </div>
+        
+      <div class="row">
+        <div class="col-md-12 mb-5">
+
+          
+
+          <form action="#" class="p-5 bg-white">
+            
+            <h2 class="h4 text-black mb-5">Contact Form</h2> 
+
+            <div class="row form-group">
+              <div class="col-md-6 mb-3 mb-md-0">
+                <label class="text-black" for="fname">First Name</label>
+                <input type="text" id="fname" class="form-control">
+              </div>
+              <div class="col-md-6">
+                <label class="text-black" for="lname">Last Name</label>
+                <input type="text" id="lname" class="form-control">
+              </div>
+            </div>
+
+            <div class="row form-group">
+              
+              <div class="col-md-12">
+                <label class="text-black" for="email">Email</label> 
+                <input type="email" id="email" class="form-control">
+              </div>
+            </div>
+
+            <div class="row form-group">
+              
+              <div class="col-md-12">
+                <label class="text-black" for="subject">Subject</label> 
+                <input type="subject" id="subject" class="form-control">
+              </div>
+            </div>
+
+            <div class="row form-group">
+              <div class="col-md-12">
+                <label class="text-black" for="message">Message</label> 
+                <textarea name="message" id="message" cols="30" rows="7" class="form-control" placeholder="Write your notes or questions here..."></textarea>
+              </div>
+            </div>
+
+            <div class="row form-group">
+              <div class="col-md-12">
+                <input type="submit" value="Send Message" class="btn btn-primary btn-md text-white">
+              </div>
+            </div>  
+          </form>          
+  </section>
+<!------------------ Contact end ----------------------------------------------------------> 
+
+
+
+
+<!------------------ footer --------------------------------------------------------->    
+<footer class="site-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-9">
+        <div class="row">
+          <div class="col-md-5">
+            <h2 class="footer-heading mb-4"><b>A R T Leasing Limited</b></h2>
+            <p> A R T Chambers <br>
+              Govt.Hospital JN, MC Road <br>Chengannur,Keralam - 689121<br>
+              <b>CIN:</b>U65910KL1990PLC005904
+             <br><br>
+             <strong>Phone:</strong><a href="tel:+919946201111" style="text-decoration: none;"> +91 9946201111</a><br>                   
+             <strong>Email:</strong><a href="mailto:hr@artleasinglimited.in?subject=Inquiry&body=Hello,%20I%20would%20like%20to%20inquire%20about" target="_blank" style="text-decoration: none;">hr@artleasinglimited.in</a><br>
+            </p>
+          </div>
+          <div class="col-md-3 ml-auto">
+            <h2 class="footer-heading mb-4">Quick Links</h2>
+            <ul class="list-unstyled">
+              <li><a href="home.html" class="smoothscroll" style="text-decoration: none;">Home</a></li>
+              <li><a href="home.html#services" class="smoothscroll" style="text-decoration: none;">Services</a></li>
+              <li><a href="about-us.html#about" class="smoothscroll" style="text-decoration: none;">About Us</a></li>
+              <li><a href="branches.html" class="smoothscroll" style="text-decoration: none;">Branches</a></li>
+            <li><a href="about-us.html#gallery" class="smoothscroll" style="text-decoration: none;">Gallery</a></li>                  
+            <li><a href="#" class="smoothscroll" style="text-decoration: none;">Reports</a></li>
+            <li><a href="#" class="smoothscroll" style="text-decoration: none;">join Us</a></li>
+            <li><a href="#contact" class="smoothscroll" style="text-decoration: none;">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h2 class="footer-heading mb-4">Nodal Officer<br>Principal Officer</h2>              
+            <p>Mrs. <strong>Sherly John</strong>                
+             <br>
+             <strong>Phone:</strong><a href="tel:+918943359110" style="text-decoration: none;"> +91 8943359110</a><br>                   
+             <strong>Email:</strong><a href="https://mail.google.com/mail/u/0/?fs=1&to=admn@artleasinglimited.in&tf=cm" target="_blank" style="text-decoration: none;">admn@artleasinglimited.in</a><br>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 footer-social">
+        <h2 class="footer-heading mb-4">Follow Us</h2>
+        <a href="#" class="pl-0 pr-3"><span class="icon-facebook"></span></a>          
+        <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
+        <a href="#" class="pl-3 pr-3"><span class="icon-linkedin"></span></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="row text-center pt-4">
+    <div class="col-md-12 border-top">
+      <p class="copyright"><small>
+        Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Designed by <b>A R T Group</b>
+      </small></p>
+    </div>
+  </div>
+</footer>  
+<!------------------footer end ------------------------------------------------------------->  
+
+<!-------script------------------------------------------------------->
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/jquery.countdown.min.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/aos.js"></script>
+<script src="js/jquery.fancybox.min.js"></script>
+<script src="js/jquery.sticky.js"></script>
+<script src="js/isotope.pkgd.min.js"></script>
+
+
+<script src="js/main.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>
